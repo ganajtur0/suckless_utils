@@ -35,11 +35,18 @@ Features
 
 - New epic cool feature: some modules only run when program starts,
                          and on SIGUSR1 signal
+- Another epic cool feature: when the battery is low OR fully
+			     charged it can send a notficitation
+			     just like notify-send
 
 Requirements
 ------------
 Currently slstatus works on FreeBSD, Linux and OpenBSD. (haven't tested)
 In order to build slstatus you need the Xlib header files.
+^
+|
+ - for the notifications to display these are not enough, you're
+   going to have to install https://developer-old.gnome.org/libnotify
 
 
 Installation
